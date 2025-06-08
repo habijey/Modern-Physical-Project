@@ -17,7 +17,7 @@ def animate(j):
 dt=1E-7
 dx=0.001
 nx=int(1/dx)*2
-nt=58000 #valeur default 90000 # En fonction du potentiel il faut modifier ce parametre car sur certaines animations la particule atteins les bords 
+nt=58000 #valeur default 90000 # En fonction du potentiel il faut modifier ce paramètre car sur certaines animations la particule atteins les bords 
 nd=int(nt/1000)+1#nombre d image dans notre animation
 n_frame = nd
 s=dt/(dx**2)
